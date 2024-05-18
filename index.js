@@ -3,8 +3,9 @@ import {menuArray} from './data.js'
 const selections = document.getElementById("selection")
 
 const createItem = (items) => {
-    console.log(items)
+    selections.innerHTML = '';
     items.forEach(function(item){
+
         selections.innerHTML += `
         <div class="menuItems">
         <div class="emoji">${item.emoji}</div>
