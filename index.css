@@ -10,7 +10,6 @@ nav{
     background-image: url('/images/burger-image.png');
     background-size: cover;
     background-position: center;
-    
 }
 
 nav h3, nav p{
@@ -20,20 +19,45 @@ nav h3, nav p{
 }
 
 nav h3 {
-    top: 5%;
-    font-size: 3em;
+    top: 3%;
+    font-size: 4em;
     left: 1em;
 }
 
 nav p{
     top: 13%;
-    size: 3em;
-}
-
-.emoji{
-    size:30px;
+    font-size: 1.2em;
+    left: 4em;
 }
 
 #selection{
     top: 40vh
+}
+
+.menuItems{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.emoji{
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5em;
+    width: 2em;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin: 0;
+}
+
+.list h3, .list p{
+    margin: 0;
 }
