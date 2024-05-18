@@ -47,7 +47,7 @@ nav p{
     display: flex;
     align-items: center;
     margin-left: 1.5em;
-    width: 2em;
+    width: 40px;
 }
 
 .list{
@@ -55,9 +55,15 @@ nav p{
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    margin: 0;
+    margin: 1em;
+    width: 200px;
 }
 
 .list h3, .list p{
     margin: 0;
+}
+
+.ingredients{
+    font-size: 0.8em;
+    color: gray;
 }

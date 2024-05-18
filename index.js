@@ -11,10 +11,10 @@ const createItem = (items) => {
         <div class="emoji">${item.emoji}</div>
         <div class="list">
             <h3>${item.name}</h3>
-            <p>${item.ingredients}</p>
+            <p class="ingredients">${item.ingredients}</p>
             <p>$${item.price}</p>
         </div>
-        <i class="fa-solid fa-circle-plus"></i>
+        <i class="fa-solid fa-circle-plus" data-add></i>
         </div>
         <hr />
         
@@ -26,3 +26,7 @@ const createItem = (items) => {
 }
 
 createItem(menuArray);
+
+document.addEventListener("click", function(e){
+    e.target.dataset.add
+})
